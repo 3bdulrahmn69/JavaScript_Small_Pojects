@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    margin: 0 auto;
+    width: 80%;
+}
+.form {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #454545;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    gap: 20px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.input {
+    width: 70%;
+    height: 50px;
+    border: 0;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    outline: none;
+    padding: 5px 10px;
+    font-size: 20px;
+}
+
+.add {
+    width: 20%;
+    height: 50px;
+    background-color: #d6891c;
+    color: #fff;
+    border: 0;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    cursor: pointer;
+}
+
+.add:hover {
+    background-color: #dfa656;
+}
+
+.tasks {
+    min-height: 50px;
+    background-color: #454545;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px 0;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.tasks .task-header {
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.tasks .tasks-output {
+    background-color: #fff;
+    width: calc(90% + 20px);
+    height: 50px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 5px 10px;
+    font-size: 20px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    position: relative;
+}
+
+.tasks .done {
+    background-color: #000000;
+    color: #706f6f;
+}
+
+.tasks .tasks-output .delete {
+    background-color: #ff0000;
+    color: #fff;
+    height: 30px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    cursor: pointer;
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    border: 0;
+}
+.tasks .tasks-output .delete:hover {
+    background-color: #ff4f4f;
+}
