@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(rgb(220, 222, 222), rgb(5, 42, 42));
+    height: 100vh;
+    overflow: hidden;
+}
+
+.quotes {
+    width: 90%;
+    height: 90vh;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: rgb(74, 113, 113);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quote {
+    width: 98%;
+    height: 90%;
+    margin: 10px auto;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px 10px 0 0;
+    -webkit-border-radius: 10px 10px 0 0;
+    -moz-border-radius: 10px 10px 0 0;
+    -ms-border-radius: 10px 10px 0 0;
+    -o-border-radius: 10px 10px 0 0;
+    position: relative;
+}
+
+.quote-text {
+    width: 90%;
+    min-height: 100px;
+    font-size: 20px;
+    margin: 10px auto;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    word-spacing: 1.8px;
+}
+
+.quote-author {
+    text-align: end;
+    font-size: 20px;
+    font-weight: 800;
+    margin-right: 20px;
+}
+
+.cp {
+    position: absolute;
+    bottom: 100px;
+    right: 10px;
+    width: 90px;
+    height: 40px;
+    cursor: pointer;
+    background-color: #092b2b;
+    color: #fff;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border: 0;
+}
+.cp:hover {
+    opacity: 0.8;
+}
+
+.btn {
+    height: 50px;
+    width: 150px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border: 0;
+    margin: 10px 0;
+    cursor: pointer;
+    background-color: #092b2b;
+    color: #fff;
+}
+.btn:hover {
+    opacity: 0.8;
+}
