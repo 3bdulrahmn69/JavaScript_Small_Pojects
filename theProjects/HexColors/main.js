@@ -1,5 +1,4 @@
 let btn = document.querySelector(".btn");
-let arr = ["#618264", "#79AC78", "#B0D9B1", "#D0E7D2", "#8EACCD", "#FFB000", "#004225", "#141E46", "#E9B824", "#fff", "#000"];
 let cpBtn = document.querySelector(".cp");
 let color;
 let hexCode = document.querySelector(".hexcode");
