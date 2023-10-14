@@ -21,7 +21,6 @@ body {
     -moz-border-radius: 8px;
     -ms-border-radius: 8px;
     -o-border-radius: 8px;
-    width: 530px;
 }
 
 .day {
@@ -47,4 +46,52 @@ body {
 .mm {
     font-size: 20px;
     display: inline;
+}
+
+@media (max-width: 320px) {
+    .day {
+        font-size: 40px;
+    }
+    .time {
+        font-size: 40px;
+    }
+    .minutes {
+        font-size: 40px;
+    }
+    
+    .sce {
+        font-size: 40px;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 480px) {
+    .day {
+        font-size: 45px;
+    }
+    .time {
+        font-size: 45px;
+    }
+    .minutes {
+        font-size: 45px;
+    }
+    
+    .sce {
+        font-size: 45px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .day {
+        font-size: 60px;
+    }
+    .time {
+        font-size: 60px;
+    }
+    .minutes {
+        font-size: 60px;
+    }
+    
+    .sce {
+        font-size: 60px;
+    }
 }
