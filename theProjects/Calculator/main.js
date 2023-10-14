@@ -42,7 +42,3 @@ eq.onclick = function () {
         inArea.textContent = "Error";
     }
 };
-
-// Logging the result outside the event listeners
-// The result should be logged after interactions, not immediately after setting up the listeners
-console.log(parseInt(inArea.textContent));
