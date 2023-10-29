@@ -89,14 +89,13 @@ body {
 }
 .city {
     font-size: 4rem;
-    padding: 20px;
+    padding: 10px;
     letter-spacing: 2px;
     text-transform: uppercase;
 } 
 .country {
     font-size: 4rem;
     font-weight: 300;
-    margin-top: 10px;
 }
 .temp {
     font-size: 3rem;
@@ -128,7 +127,15 @@ body {
     .search-box button {
         width: 20%;
     }
+    .city {
+        font-size: 3rem;
+        padding: 10px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    } 
     .country {
-        padding: 20px;
+        font-size: 3rem;
+        font-weight: 300;
+        padding: 10px;
     }
 }
