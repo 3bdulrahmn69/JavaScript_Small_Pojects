@@ -49,6 +49,11 @@ const questions = [
         options: ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"],
         answer: "Pacific Ocean"
     }, // question 10
+    {
+        question: "What is the 'What is'?",
+        options: ["Simple what is", "ask tool", "some shit thing", "IDK i was drunk"],
+        answer: "ask tool"
+    }, // question 11
 ];
 
 function displayQuestion(index) {
