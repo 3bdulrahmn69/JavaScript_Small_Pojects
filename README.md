@@ -6,7 +6,7 @@
 
 ## Live Demo
 
-You can view a live demo of the project [here]([https://3bdulrahmn69.github.io/Bondi](https://3bdulrahmn69.github.io/JavaScript_Small_Pojects).
+You can view a live demo of the project [here](https://3bdulrahmn69.github.io/JavaScript_Small_Pojects).
 
 ## Project List
 
