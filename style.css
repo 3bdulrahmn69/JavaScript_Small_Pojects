@@ -1,140 +1,96 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: rgb(8, 104, 104);
+  background-color: rgb(8, 104, 104);
+  font-family: 'Roboto', sans-serif;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 2.5rem;
+  text-decoration: underline;
+  text-underline-offset: 0.5rem;
 }
 
 .projects {
-    width: 80%;
-    min-height: 98vh;
-    margin: 0 auto;
-    margin-top: 10px;
-    border-radius: 8px;
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    -ms-border-radius: 8px;
-    -o-border-radius: 8px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin-bottom: 20px;
+  max-width: 80%;
+  margin: 40px auto 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px 40px;
 }
 
-.projects h1{
-    font-size: 30px;
-    padding: 10px 20px;
-    border-radius: 4px;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    -ms-border-radius: 4px;
-    -o-border-radius: 4px;
-    background-color: #fff;
-    color: #000;
+.projectCard {
+  min-width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
 }
 
-.project {
-    width: 80%;
-    min-height: 80px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 20px;
-    background-color: #19807e;
-    border-radius: 4px;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    -ms-border-radius: 4px;
-    -o-border-radius: 4px;
-    transition: 0.3s;
-    -webkit-transition: 0.3s;
-    -moz-transition: 0.3s;
-    -ms-transition: 0.3s;
-    -o-transition: 0.3s;
+.projectCard:hover {
+  transform: scale(1.05);
 }
 
-.project:hover {
-    transform: scale(1.07);
-    -webkit-transform: scale(1.07);
-    -moz-transform: scale(1.07);
-    -ms-transform: scale(1.07);
-    -o-transform: scale(1.07);
+h2 {
+  font-size: 1.4rem;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
 }
 
-.con {
-    margin: 10px 0;
-    width: 90%;
-}
-
-.name {
-    font-size: 20px;
-    color: #fff;
-    width: 90%;
-}
-
-.desc {
-    font-size: 16px;
-    color: #fff;
-    width: 90%;
+.projectCard:hover h2 {
+  font-size: 1.5rem;
 }
 
 .link {
-    color: #fff;
-    align-self: self-end;
-    padding: 5px;
-    margin-right: 20px;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: rgb(8, 104, 104);
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
 }
 
 .link:hover {
-    color: #000;
-    background-color: #fff;
-    border-radius: 4px 4px 0 0;
-    -webkit-border-radius: 4px 4px 0 0;
-    -moz-border-radius: 4px 4px 0 0;
-    -ms-border-radius: 4px 4px 0 0;
-    -o-border-radius: 4px 4px 0 0;
+  background-color: rgb(109, 200, 200);
 }
 
-@media (max-width: 320px) {
-    .projects h1{
-        font-size: 20px;
-        padding: 5px 10px;
-    }
-
-    .project {
-        width: 90%;
-    }
-    .con {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        gap: 5px;
-    }
-}
-
-@media (min-width: 321px) and  (max-width: 480px) {
-    .projects h1{
-        font-size: 20px;
-        padding: 5px 10px;
-    }
-
-    .project {
-        width: 90%;
-    }
-    .con {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        gap: 5px;
-    }
+@media (max-width: 426px) {
+  h1 {
+    font-size: 2rem;
+  }
+  .projects {
+    max-width: 90%;
+    margin-bottom: 10px;
+  }
+  .projectCard {
+    min-width: 100%;
+  }
 }
